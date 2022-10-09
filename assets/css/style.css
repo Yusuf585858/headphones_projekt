@@ -1,0 +1,382 @@
+/* Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115) */
+@font-face {
+    font-family: worksans;
+    src: url("../fonts/WorkSans-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #867772;
+    font-family: worksans;
+    font-size: 1.5rem;
+
+}
+
+p {
+    font-family: worksans;
+    color: rgb(234, 204, 194);
+    font-size: 1.6rem;
+
+}
+
+h1,
+h2 {
+    color: #867772
+}
+
+body {
+    background-color: #2e2e2e;
+}
+
+.bar1 .nav1 a:hover {
+    color: #fff;
+    transition: 1.5s;
+
+}
+
+/* ========= ABOUT =========== */
+
+/* ================== HEADER ==================== */
+.bar1 {
+    position: fixed;
+    width: 100%;
+    top: 3%;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.facebook {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.facebook>li {
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.bar2 {
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    list-style: circle;
+
+}
+
+.bar2 nav ul li {
+    margin: 2rem 1rem;
+}
+
+.logo {
+    padding-left: 2rem;
+    padding-top: 1rem
+}
+
+.nav1 {
+    padding-right: 2rem;
+    display: flex;
+    padding-top: 1rem;
+    list-style: none;
+    gap: 4vw;
+}
+
+/* =============== MAIN ====================== */
+.mainbild1 {
+    background-image: url("../img/section-about-1.jpg");
+    height: 100vh;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+article figure img {
+    width: 20rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: left;
+    width: 22rem;
+    margin: 0rem auto;
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    font-weight: lighter;
+    line-height: 2.5rem;
+    font-family: worksans;
+    color: #867772;
+}
+
+.musicbox {
+    /* padding: 4rem 0 2rem 4rem; */
+    padding-top: 10rem;
+    /*  width: 100%; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.musicbox img {
+    width: 30%;
+    height: auto;
+
+
+}
+
+
+
+
+
+
+.design {
+    width: 22rem;
+
+    color: rgb(234, 204, 194);
+    /* padding-bottom: 1rem;
+    word-spacing: .3rem;
+    padding-top: 2rem; */
+
+}
+
+
+/* =========== Lounger =============== */
+
+.body2 {
+    width: 100%;
+    display: flex;
+}
+
+
+
+.lounge {
+    background-image: url("../img/section-voyager.jpg");
+    width: 62%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+.thelounger {
+    width: 38%;
+    padding-top: 20rem;
+    padding-left: 3.5rem;
+
+}
+
+.thelounger h2 {
+    padding-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.thelounger p {
+    width: 22rem;
+}
+
+
+
+
+
+/* ========== section 3 =========== */
+
+
+
+.body3 {
+    width: 100%;
+    display: flex;
+}
+
+
+
+.musikbox {
+    background-image: url("../img/section-experience-1.jpg");
+    width: 62%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+.likehome {
+    width: 38%;
+    padding-top: 20rem;
+    padding-left: 3.5rem;
+
+}
+
+.likehome h2 {
+    padding-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.likehome p {
+    width: 22rem;
+}
+
+
+/* =================  Section 4 ===================== */
+
+.video {
+    padding: 10% 25% 0 25%;
+}
+
+.alchemy {
+    padding-top: 10rem;
+    padding-left: 30rem;
+    word-spacing: 0.5rem;
+}
+
+.alchemy p {
+    font-size: 2rem;
+}
+
+.alchemy h2 {
+    font-size: 4rem;
+}
+
+.words {
+    padding-top: 3rem;
+    padding-left: 30rem;
+    display: flex;
+    gap: 0.6rem;
+}
+
+.words p {
+    font-size: 1.5rem;
+    ;
+    border: 2px solid #fff;
+    border-radius: 12%;
+    color: rgb(115, 115, 115)
+}
+
+.weDefine {
+    padding-left: 30rem;
+    padding-top: 1.8rem;
+    font-size: 1.4rem;
+    color: rgb(115, 115, 115)
+}
+
+/* ================= section 2 mit 2 bildern ================== */
+
+.twoimg {
+    width: 100%;
+}
+
+.afeeling {
+    margin-left: -10rem;
+}
+
+.everything {
+    padding-top: 0;
+    padding-bottom: 4rem;
+    margin-right: -14rem;
+}
+
+
+
+.afeeling img {
+    width: 20%;
+
+}
+
+.everything img {
+    width: 20%;
+
+}
+
+
+
+/* =================== SHOP =================== */
+
+.body5 {
+    width: 100%;
+    display: flex;
+}
+
+
+
+.shop {
+    background-image: url("../img/section-composition4.jpg");
+    width: 60%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.headphoneimg {
+    display: flex;
+    /* width: 40%; */
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+/* ======== IMG Größe verändern */
+
+.headphoneimg img {
+    padding-left: 14rem;
+    width: 80%;
+    height: auto;
+
+}
+
+.headphoneimg div {
+    text-align: center;
+}
+
+.headphoneimg .h9 {
+    padding-top: 3rem;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.headphoneimg .argilla {
+    font-size: 1.8rem;
+    padding-top: .8rem;
+    padding-bottom: 0;
+    text-align: center;
+    color: rgb(115, 115, 115);
+}
+
+.headphoneimg div {
+    padding-top: 4rem;
+
+
+}
+
+.headphoneimg p {
+    font-size: 2.5rem;
+    padding-bottom: 0.8rem;
+}
+
+.headphoneimg a {
+    padding: 0.4rem 0.5rem;
+    background-color: rgb(234, 204, 194);
+    font-size: 2rem;
+}
